@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from './layout/layout.module';
-import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { CarouselComponent } from './components/carousel/carousel.component';
 @NgModule({
-  declarations: [AppComponent, DashboardComponent],
+  declarations: [AppComponent, CarouselComponent],
   imports: [BrowserModule, AppRoutingModule, LayoutModule, NgImageSliderModule],
   providers: [],
   bootstrap: [AppComponent],
