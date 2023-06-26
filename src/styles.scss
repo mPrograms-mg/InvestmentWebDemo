@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 h4 {
@@ -199,6 +199,17 @@ button {
 }
 
 // Header
+
+header {
+  box-shadow: 0 5px 5px 0 rgba(1, 1, 1, 0.05);
+  top: 0;
+  position: sticky;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  z-index: 100;
+}
+
 .header_top {
   width: 100%;
   width: 100%;
@@ -220,11 +231,9 @@ button {
   padding-left: 10px;
 }
 
-// header Section
-
 .navbar {
   position: relative;
-  padding: 0.6rem 1rem;
+  padding: 0.2rem 3rem;
 }
 
 .nav-link {
@@ -235,14 +244,6 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 20px;
   padding-left: 20px;
-}
-
-// .navbar-nav {
-//   margin-left: 45%;
-// }
-
-.main-content-wrapper {
-  padding-top: 0px;
 }
 
 // Copy write section
@@ -266,4 +267,32 @@ button {
 }
 .copyright a:hover {
   font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.social-links i {
+  padding: 10px;
+  color: #fdfdfe;
+}
+
+.social-links a .fa-facebook:hover {
+  color: #3b5998;
+}
+
+.social-links a .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.social-links a .fa-instagram:hover {
+  color: #c13584;
+}
+
+.social-links a .fa-youtube:hover {
+  color: #f70000;
 }

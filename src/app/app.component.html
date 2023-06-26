@@ -1,5 +1,7 @@
 <app-header></app-header>
-<div class="container">
+<div class="container mt-4">
+    <app-scroll *ngIf="showScroll$ | async" (scrollToTop)="onScrollToTop()"></app-scroll>
     <app-carousel></app-carousel>
+    <app-portfolio-services></app-portfolio-services>
 </div>
 <app-footer></app-footer>
